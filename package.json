@@ -1,0 +1,22 @@
+{
+  "name": "quelora-demo-api",
+  "version": "1.0.0",
+  "description": "API para la demo de Quelora - Sirve posts desde MongoDB",
+  "main": "run.js",
+  "type": "module",
+  "scripts": {
+    "start": "node run.js",
+    "dev": "node --watch run.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "keywords": ["quelora", "demo", "api"],
+  "author": "",
+  "license": "ISC"
+}
